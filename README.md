@@ -52,7 +52,7 @@ try engine?.start()
 
 ## Play the AHAP
 
-Assuming the engine has started, call the engine’s method, [`playPattern`](https://developer.apple.com/documentation/corehaptics/chhapticengine/3043659-playpattern), passing it the URL to playing the file.
+Assuming the engine has started, call the engine’s method, [`playPattern`](https://developer.apple.com/documentation/corehaptics/chhapticengine/playpattern(from:)), passing it the URL to playing the file.
 
 ``` swift
 // Tell the engine to play a pattern.
@@ -70,7 +70,7 @@ Core Haptics layers simultaneously playing haptics automatically. If you don't w
 
 ## Create Advanced Pattern Players for More Granular Control
 
-To have more granular control over individual haptics, such as configuring their pausing, resuming, and seeking behavior, create and maintain advanced pattern players using [`CHAdvancedPatternPlayer`](https://developer.apple.com/documentation/corehaptics/chhapticadvancedpatternplayer) instead of using [`playPattern`](https://developer.apple.com/documentation/corehaptics/chhapticengine/3043659-playpattern).
+To have more granular control over individual haptics, such as configuring their pausing, resuming, and seeking behavior, create and maintain advanced pattern players using [`CHAdvancedPatternPlayer`](https://developer.apple.com/documentation/corehaptics/chhapticadvancedpatternplayer) instead of using [`playPattern`](https://developer.apple.com/documentation/corehaptics/chhapticengine/playpattern(from:)).
 
 ``` swift
 advancedPlayer = try hapticEngine.makeAdvancedPlayer(with: ahapPattern)
