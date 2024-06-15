@@ -124,35 +124,14 @@ class ViewController: UIViewController {
     
     // Respond to presses from each button, created in Interface Builder.
     @IBAction func playAHAP1(sender: UIButton) {
-        playHapticsFile(named: "AHAP/Sparkle")
-    }
-    
-    @IBAction func playAHAP2(sender: UIButton) {
-        playHapticsFile(named: "AHAP/Heartbeats")
-    }
-    
-    @IBAction func playAHAP3(sender: UIButton) {
-        playHapticsFile(named: "AHAP/Boing")
-    }
-    
-    @IBAction func playAHAP4(sender: UIButton) {
-        playHapticsFile(named: "AHAP/Inflate")
-    }
-    
-    @IBAction func playAHAP5(sender: UIButton) {
-         playHapticsFile(named: "AHAP/Gravel")
-    }
-    
-    @IBAction func playAHAP6(sender: UIButton) {
-         playHapticsFile(named: "AHAP/Rumble")
-    }
-    
-    @IBAction func playAHAP7(sender: UIButton) {
-         playHapticsFile(named: "AHAP/Oscillate")
-    }
-    
-    @IBAction func playAHAP8(sender: UIButton) {
-         playHapticsFile(named: "AHAP/Drums")
+        playHapticsFile(named: "AHAP/ig-opal-sprocket-lighter")
     }
 
+    @IBAction func playAHAP2(sender: UIButton) {
+        playHapticsFile(named: "AHAP/ig-opal-sprocket")
+    }
+
+    @IBAction func playAHAP3(sender: UIButton) {
+        playHapticsFile(named: "AHAP/ig-opal-whoosh-and-snap")
+    }
 }
