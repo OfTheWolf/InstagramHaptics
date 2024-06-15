@@ -1,6 +1,6 @@
 # Playing Instagram's Custom Haptics
 
-This code is adapted from Apple's sample code below to demostrate playing Instagram's custom haptic patterns from .ahap (Apple Haptic Audio Pattern) files. Those files are extracted by reverse engineering Instagram's iOS app.
+This code is adapted from Apple's sample code below to demostrate playing Instagram's custom haptic patterns from .ahap (Apple Haptic Audio Pattern) files. Those files were extracted by reverse engineering Instagram's iOS app.
 
 - ig-opal-sprocket-lighter.ahap
 - ig-opal-sprocket.ahap
